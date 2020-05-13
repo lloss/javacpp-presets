@@ -16,15 +16,15 @@ matrix:
         env: PROJ=ffmpeg OS=android-arm
         install: true
         script: ./ci/install-travis.sh
-      - os: linux
-        env: PROJ=ffmpeg OS=android-arm64
-        install: true
-        script: ./ci/install-travis.sh
-      - os: linux
-        env: PROJ=ffmpeg OS=android-x86
-        install: true
-        script: ./ci/install-travis.sh
-      - os: linux
-        env: PROJ=ffmpeg OS=android-x86_64
-        install: true
-        script: ./ci/install-travis.sh
+#      - os: linux
+#        env: PROJ=ffmpeg OS=android-arm64
+#        install: true
+#        script: ./ci/install-travis.sh
+#      - os: linux
+#        env: PROJ=ffmpeg OS=android-x86
+#        install: true
+#        script: ./ci/install-travis.sh
+#      - os: linux
+#        env: PROJ=ffmpeg OS=android-x86_64
+#        install: true
+#        script: ./ci/install-travis.sh
